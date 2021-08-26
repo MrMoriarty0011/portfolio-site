@@ -1,0 +1,28 @@
+.header-main-container{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 20px 20%;
+    z-index: 10;
+    background: var(--header-active);
+}
+
+.header-main-container p{
+    color: white;
+    margin: 0;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.header-main-container.active{
+    background: var(--header-active);
+}
+
+.header-main-container p:hover{
+    color: var(--main-primary);
+    text-decoration: underline;
+    margin-top: -5px;
+}

@@ -1,0 +1,14 @@
+.education-label{
+    background: var(--main-primary);
+    padding: 8px 15px;
+    border: none;
+    color: white;
+    width: fit-content;
+    margin-bottom: 0.5em;
+}
+
+.education-label span{
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}

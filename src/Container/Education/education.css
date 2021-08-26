@@ -1,0 +1,44 @@
+.education {
+    background: var(--primary-background);
+}
+
+.education-institutes {
+    margin-bottom: 40px;
+    display: flex;
+    /* animation: 0.7s curtain cubic-bezier(.86,0,.07,1) 0.4s both; */
+}
+
+/* @keyframes curtain {
+    0% {
+        width: 200%;
+    }
+
+    100% {
+        width: 100%;
+    }
+} */
+
+.col-dates-wrapper{
+    width: 50%;
+}
+
+.col-institute-wrapper{
+    width: 50%;
+}
+
+.institute-main-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.institute-main-container::before {
+    background: var(--main-primary);
+    content: '';
+    margin-left: -1px;
+    position: absolute;
+    top: 0;
+    left: -40px;
+    width: 2px;
+    height: 100%;
+}
