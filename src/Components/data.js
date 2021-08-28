@@ -1,10 +1,14 @@
 const data = {
-    'name': 'Nishant Poudel',
-    'age': '23 years',
-    'location': 'Mahalaxmi-9, Lalitpur, Nepal',
-    'description': 'I am a computer science student graduated from Patan Multiple Campus. I have been focusing my\n' +
-        '                        career as a front end developer to design and develop responsive websites using programming\n' +
-        '                        languages like React, Javascript and HTML/CSS.',
+    'userInfo': {
+        'name': 'Nishant Poudel',
+        'age': '23 years',
+        'location': 'Mahalaxmi-9, Lalitpur, Nepal',
+        'jobTitle': 'Front-end Developer',
+        'description': 'I am a computer science student graduated from Patan Multiple Campus. I have been focusing my\n' +
+            '                        career as a front end developer to design and develop responsive websites using programming\n' +
+            '                        languages like React, Javascript and HTML/CSS.',
+    },
+    
     'education': [
         {
             'level': 'BACHELORS',

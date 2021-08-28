@@ -4,7 +4,6 @@ import {MainBackground} from "./Container/MainBackground/MainBackground";
 import 'antd/dist/antd.css';
 import ScrollUpButton from 'react-scroll-up-button';
 import {Header} from "./Container/Header/header";
-import {Profile} from "./Container/Profile/Profile";
 import {Education} from "./Container/Education/Education";
 import data from './Components/data';
 import {Experience} from "./Container/Experience/experience";
@@ -19,12 +18,9 @@ import UpOutlined from "@ant-design/icons/lib/icons/UpOutlined";
 
 function App() {
     const {
-        name,
-        age,
-        location,
-        description,
-        education,
+        userInfo,
         experience,
+        education,
         skills
     } = data;
 
@@ -44,7 +40,7 @@ function App() {
             {/* <DownCircleOutlined className='scroll-button'/> */}
             {/* <Header/> */}
             <div id='home'>
-                <MainBackground/>
+                <MainBackground userInfo={userInfo}/>
             </div>
             {/* <div id='profile'>
                 <Profile name={name}
@@ -58,9 +54,9 @@ function App() {
             <div id='experience'>
                 <Experience experience={experience}/>
             </div>
-            <div id='education'>
+            {/* <div id='education'>
                 <Education education={education}/>
-            </div>
+            </div> */}
             <div id='contact'>
                 <Contact/>
             </div>
